@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 function TrafficLight () {
 
-    const [ state, setState ] = useState(          null        );
+    const [ state, setState ] = useState({ red: null, yellow: null, green: null });
 
     console.log(state);
 
